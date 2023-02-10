@@ -1,0 +1,48 @@
+@charset "pt-br";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: darkred;
+    
+}
+
+
+#container {
+
+    position: relative;
+
+    width: 800px;
+    height: 800px;
+}
+
+#conteudo {
+
+    background-color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+    
+    position: absolute;
+    height: 500px;
+    width: 700px;
+    padding: 20px;
+
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    left: 120%;
+    top: 50%;
+
+
+    transform: translate(-50%, -50%);
+}
+
+li {
+
+    list-style: none;
+    margin: auto;
+}
+
