@@ -1,0 +1,17 @@
+
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+body > h1 {
+    display: block;
+    background-color: darkred;
+}
