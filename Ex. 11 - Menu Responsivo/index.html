@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+
+    
+        <header>
+            <h1>Site para fins de teste</h1>
+                
+            
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+
+                <menu id="menuitens">
+            <ul>
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+                <li><a href="#">Option 4</a></li>
+                <li><a href="#">Option 5</a></li>
+            </ul>
+                </menu>
+        </header>
+
+    <article>
+        <h2>Testando Media Queries</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur aperiam repudiandae inventore esse ex tempore maxime? Iusto amet ipsam dolorum cum in quisquam, eligendi vel laudantium accusantium expedita eum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quidem unde quasi quibusdam consequuntur nihil officia optio? Necessitatibus nesciunt ducimus eos non mollitia commodi beatae aliquid nulla aut similique. Beatae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, soluta. Doloremque deleniti esse, possimus ea sint asperiores qui eum fugit illo assumenda id in exercitationem sed minus? Similique, ipsum saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fuga optio sit et, deleniti placeat veritatis est adipisci, rem quidem nemo omnis, accusantium porro eius maxime consequatur ad. Itaque, fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laborum autem, possimus libero quo sint modi totam sapiente enim voluptatem omnis maxime, minus fuga voluptatibus deserunt magnam at a harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, facere magnam eius praesentium repellat alias ipsam quo necessitatibus, qui delectus illum saepe sed maxime? Optio, aliquam. Dolor error dolore distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsum at totam laborum reprehenderit architecto optio quas voluptate, delectus placeat quasi necessitatibus saepe rem earum eum sunt asperiores! Natus, obcaecati? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum hic temporibus dolore deserunt esse id nemo vel facilis incidunt! Numquam, voluptate atque error vel cupiditate iure exercitationem voluptatem incidunt molestiae?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et corrupti a, non praesentium ad ducimus. Reprehenderit vitae animi illo quod, culpa iusto itaque hic voluptatum minus, quam nulla placeat doloribus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deserunt eum ea odit facilis nulla, illo quam quaerat impedit aspernatur ut nesciunt, minus esse qui vel ex quae non ipsa.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sequi dolore, dolores, sint tempora nobis temporibus, rerum nihil magni natus tempore quasi perspiciatis id eius laboriosam. Incidunt obcaecati optio consequuntur.</p>
+
+    </article>
+
+    <script>
+        function clickMenu() {
+             
+            if (menuitens.style.display == 'block') {
+                menuitens.style.display = 'none'
+            } else {
+                menuitens.style.display = 'block'
+            }
+
+        }
+    </script>
+    
+</body>
+</html>
