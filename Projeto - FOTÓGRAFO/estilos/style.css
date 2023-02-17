@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+
+body {
+    background-color: #3D342F;
+}
+
+
+
+header {
+
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 80px;
+    width: 100vw;
+    
+}
+
+
+
+
+
+
+
+
+
+
